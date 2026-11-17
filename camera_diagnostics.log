@@ -1,0 +1,25 @@
+[0 ms] [INFO] Independent local-buffer demo; no driver, game attachment or input automation
+[0 ms] [INFO] raw +0x0000 bits=0x00000000 float=0 
+[0 ms] [INFO] raw +0x0004 bits=0x00000000 float=0 
+[0 ms] [INFO] raw +0x0008 bits=0x00000000 float=0 
+[0 ms] [INFO] raw +0x000C bits=0x00000000 float=0 
+[0 ms] [INFO] raw +0x0010 bits=0x00000000 float=0 
+[0 ms] [INFO] raw +0x0014 bits=0x3F800000 float=1 
+[0 ms] [INFO] raw +0x0018 bits=0x3F800000 float=1 
+[0 ms] [INFO] raw +0x001C bits=0x00000000 float=0 
+[0 ms] [INFO] raw +0x0020 bits=0x00000000 float=0 
+[0 ms] [INFO] raw +0x0024 bits=0x00000000 float=0 
+[1 ms] [INFO] raw +0x0028 bits=0x3F800000 float=1 
+[1 ms] [INFO] raw +0x002C bits=0x00000000 float=0 
+[1 ms] [INFO] raw +0x0030 bits=0x42700000 float=60 
+[1 ms] [INFO] raw +0x0034 bits=0x3DCCCCCD float=0.100000001 
+[1 ms] [INFO] raw +0x0038 bits=0x447A0000 float=1000 
+[1 ms] [INFO] Camera.fov offset=0x30 value=60 source=snapshot
+[1 ms] [INFO] Camera.near_plane offset=0x34 value=0.100000001 source=snapshot
+[1 ms] [INFO] Camera.far_plane offset=0x38 value=1000 source=snapshot
+[1 ms] [INFO] Camera.position=(0, 0, 0); orthonormal basis validated
+[1 ms] [INFO] VP[0] = [0.974279 0 0 0]
+[1 ms] [INFO] VP[1] = [0 1.73205 0 0]
+[1 ms] [INFO] VP[2] = [0 0 1.0002 -0.20002]
+[1 ms] [INFO] VP[3] = [0 0 1 0]
+[1 ms] [INFO] World (0,0,10) -> screen (960.000, 540.000)

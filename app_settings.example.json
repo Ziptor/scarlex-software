@@ -1,0 +1,7 @@
+{
+  "max_frames": 3,
+  "frame_delay_ms": 16,
+  "screen_width": 1920,
+  "screen_height": 1080,
+  "show_panel": true
+}

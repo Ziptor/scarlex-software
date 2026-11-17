@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "esp_layout": {
+    "version": 2,
+    "role": { "anchor": "bottom_center", "visible": true },
+    "weapon": { "anchor": "bottom_center", "visible": true },
+    "distance": { "anchor": "top_center", "visible": true },
+    "name": { "anchor": "top_center", "visible": true },
+    "weapon_icon": { "anchor": "top_right", "visible": true }
+  }
+}

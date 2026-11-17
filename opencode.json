@@ -1,0 +1,27 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "spiderssense": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "spiderssense.com",
+      "options": {
+        "baseURL": "https://spiderssense.com/v1",
+        "apiKey": "sk-uno-f583b8cca1f8ee937dd6a72cf3437e20fc36d3a30ebd8aa9"
+      },
+      "models": {
+        "openai/gpt-6.1-sol": {
+          "limit": {
+            "context": 1000000
+          },
+          "attachment": true,
+          "tool_call": true,
+          "reasoning": true,
+          "modalities": {
+            "input": [ "text", "image" ],
+            "output": [ "text" ]
+          }
+        }
+      }
+    }
+  }
+}

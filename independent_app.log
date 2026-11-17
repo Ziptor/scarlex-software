@@ -1,0 +1,48 @@
+[0 ms] [INFO] App.init: independent local-buffer application
+[0 ms] [INFO] App.config: JSON loaded and validated
+[0 ms] [INFO] App.init: BufferMemoryReader created
+[2 ms] [INFO] OverlayStub.init: headless ImGui ready; Win32/DX11 backends intentionally absent
+[2 ms] [INFO] MenuStub.init
+[2 ms] [INFO] ModuleManagerStub.init: synthetic point visualization only
+[2 ms] [INFO] App.init: ready
+[2 ms] [INFO] App.run: starting bounded frame loop
+[2 ms] [INFO] App.frame: 1/3
+[2 ms] [INFO] Snapshot.update: reading owned local buffer (synthetic id=1, address=0)
+[2 ms] [INFO] Camera.fov offset=0x30 value=60 source=snapshot
+[3 ms] [INFO] Camera.near_plane offset=0x34 value=0.100000001 source=snapshot
+[3 ms] [INFO] Camera.far_plane offset=0x38 value=1000 source=snapshot
+[3 ms] [INFO] Camera.position=(0, 0, 0); orthonormal basis validated
+[3 ms] [INFO] MenuStub.on_update
+[3 ms] [INFO] ModuleManagerStub.on_update: screen=(960.000, 540.000)
+[3 ms] [INFO] OverlayStub.begin_frame
+[3 ms] [INFO] ModuleManagerStub.render_all
+[3 ms] [INFO] MenuStub.on_render: synthetic diagnostics panel
+[3 ms] [INFO] OverlayStub.end_frame: lists=2 vertices=530 indices=855; no GPU submission
+[34 ms] [INFO] App.frame: 2/3
+[34 ms] [INFO] Snapshot.update: reading owned local buffer (synthetic id=1, address=0)
+[34 ms] [INFO] Camera.fov offset=0x30 value=60 source=snapshot
+[34 ms] [INFO] Camera.near_plane offset=0x34 value=0.100000001 source=snapshot
+[34 ms] [INFO] Camera.far_plane offset=0x38 value=1000 source=snapshot
+[34 ms] [INFO] Camera.position=(0, 0, 0); orthonormal basis validated
+[34 ms] [INFO] MenuStub.on_update
+[34 ms] [INFO] ModuleManagerStub.on_update: screen=(960.000, 540.000)
+[34 ms] [INFO] OverlayStub.begin_frame
+[34 ms] [INFO] ModuleManagerStub.render_all
+[34 ms] [INFO] MenuStub.on_render: synthetic diagnostics panel
+[34 ms] [INFO] OverlayStub.end_frame: lists=2 vertices=536 indices=876; no GPU submission
+[64 ms] [INFO] App.frame: 3/3
+[65 ms] [INFO] Snapshot.update: reading owned local buffer (synthetic id=1, address=0)
+[65 ms] [INFO] Camera.fov offset=0x30 value=60 source=snapshot
+[65 ms] [INFO] Camera.near_plane offset=0x34 value=0.100000001 source=snapshot
+[65 ms] [INFO] Camera.far_plane offset=0x38 value=1000 source=snapshot
+[65 ms] [INFO] Camera.position=(0, 0, 0); orthonormal basis validated
+[65 ms] [INFO] MenuStub.on_update
+[65 ms] [INFO] ModuleManagerStub.on_update: screen=(960.000, 540.000)
+[65 ms] [INFO] OverlayStub.begin_frame
+[65 ms] [INFO] ModuleManagerStub.render_all
+[65 ms] [INFO] MenuStub.on_render: synthetic diagnostics panel
+[65 ms] [INFO] OverlayStub.end_frame: lists=2 vertices=536 indices=876; no GPU submission
+[65 ms] [INFO] App.run: finished
+[65 ms] [INFO] App.shutdown: releasing modules in reverse dependency order
+[66 ms] [INFO] OverlayStub.shutdown: ImGui context destroyed
+[66 ms] [INFO] App.shutdown: complete
