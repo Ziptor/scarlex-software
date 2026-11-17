@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { createLicenseDemo } from './licenses.mjs';
+import { createLicenseDemo } from '../licenses.mjs';
 
 test('activation, device binding, renewal, signature rejection, and expiration', t => {
   let now = 1_000_000;
