@@ -1,0 +1,13 @@
+node_modules/
+build/
+.env
+.env.*
+*.log
+*.pem
+*.key
+*.pfx
+*.db*
+*.sqlite*
+*.exe
+*.dll
+*.sys
