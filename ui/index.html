@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>Scarlex · Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <img class="brand" src="logo.png" alt="Scarlex">
+    <span class="mono muted">ПОРТФОЛИО / DEMO</span>
+  </header>
+  <main class="sign-screen" id="sign-screen">
+    <section class="auth">
+      <span class="access-label"><i></i>ЛОКАЛЬНАЯ ДЕМОНСТРАЦИЯ</span>
+      <h1>Вход по ключу</h1>
+      <p class="eyebrow">ИСПОЛЬЗУЕТСЯ ТОЛЬКО ТЕСТОВОЕ ЗНАЧЕНИЕ</p>
+      <form id="auth-form" autocomplete="off">
+        <label class="field">
+          <input id="key-input" aria-label="Демонстрационный ключ" value="SCARLEX-PORTFOLIO-DEMO" maxlength="128" spellcheck="false" required>
+        </label>
+        <button class="primary" type="submit">Проверить ключ</button>
+      </form>
+      <p id="notice" class="notice" role="status"></p>
+    </section>
+    <footer class="server mono"><i class="dot on"></i>SQLite / Ed25519</footer>
+  </main>
+  <main class="dashboard" id="dashboard" hidden>
+    <section class="games">
+      <div class="section-heading"><span class="section-kicker">SCARLEX / WORKSPACE</span><h1>Демонстрация сессии</h1><p>Устройство и лицензия в этом примере тестовые.</p></div>
+      <div class="launch-status" role="status"><i class="dot on"></i><div><span class="section-kicker">ПОДПИСАННАЯ СЕССИЯ</span><p id="session-status"></p></div></div>
+      <button id="refresh" class="secondary" type="button">Продлить сессию</button>
+    </section>
+    <aside class="sidebar">
+      <section class="activity"><h2>ЖУРНАЛ</h2><ol id="activity" aria-live="polite"></ol></section>
+    </aside>
+    <footer class="dashboard-footer"><span class="mono">ТЕСТОВОЕ ОКРУЖЕНИЕ</span><div class="spacer"></div><button id="signout" class="secondary" type="button">Выйти</button></footer>
+  </main>
+</body>
+</html>
